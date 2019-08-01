@@ -1,0 +1,12 @@
+.docs-title{
+    height: 60px;
+    line-height: 60px;
+    background-color: #EFEFEF;
+}
+.docs-content{
+    text-align: left;
+    margin-left: 80px;
+}
+.docs-content div{
+    font-size: 16px;
+}
