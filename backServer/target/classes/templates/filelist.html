@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>视频列表</title>
+</head>
+<body>
+视频列表
+<div>
+    <ul>
+        <li th:each="Shipin:${Shipins}">
+            <p>ID:<span th:text="${Shipin.id}"></span></p>
+            <p>视频url======<span th:text="${Shipin.url}"></span></p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
